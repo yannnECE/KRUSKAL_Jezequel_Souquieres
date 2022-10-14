@@ -15,6 +15,5 @@ int main()
     ///On appele lafonction KRUSKAL
     KRUSKAL(g);
 
-    //lalalal
     return 0;
 }
