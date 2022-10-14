@@ -214,7 +214,7 @@ void KRUSKAL(Graphe* g)
         cno2 = find(belongs, listeArrete->data[i]->sommet);
 
         ///Si le sommet de départ est différent de celui d'arrivée on ajoute l'arrete dans l'arbre couvrant
-        ///C'est pour éviter les boucles 
+        ///C'est pour éviter les boucles
         if (cno1 != cno2)
         {
             ListeMST->data[ListeMST->n] = listeArrete->data[i];
